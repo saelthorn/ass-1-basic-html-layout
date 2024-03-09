@@ -1,0 +1,102 @@
+* {
+    background-color: #1d1d1d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.heady {
+    border: #ffffff;
+    border-style: solid;
+}
+.h1head {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #EDEDED;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar {
+    border: #ffffff;
+    border-style: solid;
+    position: relative;
+    top: 5px;
+}
+.logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #EDEDED;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+main {
+    position: relative;
+    top: 5px;
+    height: 500px;
+    display: flex;
+}
+
+.sidecon1 {
+    border: #ffffff;
+    border-style: solid;
+    position: relative;
+    top: 12px;
+    width: 25%;
+    height: 30rem;
+}
+.sideh1con1 {
+    color: #EDEDED;
+    font-size: 30px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.maincon {
+    border: #ffffff;
+    border-style: solid;
+    position: relative;
+    top: 12px;
+    width: 50%;
+    height: 30rem;
+}
+.mainh1 {
+    color: #EDEDED;
+    font-size: 30px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.sidecon2 {
+    border: #ffffff;
+    border-style: solid;
+    position: relative;
+    top: 12px;
+    width: 25%;
+    height: 30rem;
+}
+.sideh1con2 {
+    color: #EDEDED;
+    font-size: 30px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+
+
+footer {
+    border: #ffffff;
+    border-style: solid;
+    position: relative;
+    top: 15px;
+}
+
+.footh1con {
+    color: #EDEDED;
+    font-size: 30px;
+    text-align: center;
+
+}
