@@ -1,13 +1,19 @@
 * {
-    background-color: #1d1d1d;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
 }
-
+body {
+    background-image: url('skyline.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1d1d1d;
+}
 
 .navbar {
     position: relative;
     color: #EDEDED;
     width: 100%;
+    /*background-color: red;*/
 }
 .logo {
     margin: 0px;
@@ -19,8 +25,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 50px;
-    margin: 0px;
+    height: 75px;
     padding: 0px;
 }
 .navcont li {
@@ -41,9 +46,8 @@ main {
     border: #ffffff;
     border-style: solid;
     position: relative;
-    top: 12px;
-    width: 25%;
-    height: 30rem;
+    width: 40%;
+    height: 35rem;
 }
 .sideh1con1 {
     color: #EDEDED;
@@ -56,9 +60,8 @@ main {
     border: #ffffff;
     border-style: solid;
     position: relative;
-    top: 12px;
-    width: 50%;
-    height: 30rem;
+    width: 60%;
+    height: 35rem;
 }
 .mainh1 {
     color: #EDEDED;
@@ -67,28 +70,11 @@ main {
     text-align: center;
 }
 
-.sidecon2 {
-    border: #ffffff;
-    border-style: solid;
-    position: relative;
-    top: 12px;
-    width: 25%;
-    height: 30rem;
-}
-.sideh1con2 {
-    color: #EDEDED;
-    font-size: 30px;
-    padding-top: 200px;
-    text-align: center;
-}
-
-
-
 footer {
     border: #ffffff;
     border-style: solid;
     position: relative;
-    top: 15px;
+    top: 70px;
 }
 
 .footh1con {
