@@ -43,17 +43,37 @@ main {
 }
 
 .sidecon1 {
-    border: #ffffff;
-    border-style: solid;
+    /*border: #ffffff;*/
+    /*border-style: solid;*/
     position: relative;
     width: 40%;
     height: 35rem;
 }
-.sideh1con1 {
+.sideconli {
     color: #EDEDED;
-    font-size: 30px;
-    padding-top: 200px;
-    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    list-style: none;
+    padding-top: 270px;
+    font-weight: 650;
+}
+.sideconcta {
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 650;
+    margin-left: 43px;
+    margin-top: 10px;
+    border-radius: 100px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    transition: width 0.4s, height 0.4s, transform 2s;
+    transition-timing-function: ease-in-out;
+}
+.sideconcta:hover {
+    width: 260px;
+    background-color: #FF9900;
 }
 
 .maincon {
